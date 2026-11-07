@@ -2,343 +2,200 @@
 <html lang="ja">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>BEAUTY SALON ODA｜鈴鹿市の美容室・髪質改善・カラー・カット</title>
-
     <meta name="description"
         content="鈴鹿市の美容室BEAUTY SALON ODA。カット・カラー・パーマ・髪質改善まで、一人ひとりに合わせた丁寧な施術をご提供します。">
-
     <meta name="keywords"
         content="鈴鹿市,美容室,髪質改善,カラー,カット,パーマ,BEAUTY SALON ODA">
-
     <meta name="robots" content="index,follow">
 
     <meta property="og:title" content="BEAUTY SALON ODA">
     <meta property="og:description"
         content="鈴鹿市の美容室BEAUTY SALON ODA。落ち着いた空間で理想のヘアスタイルをご提案します。">
     <meta property="og:type" content="website">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" href="favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <header>
-
     <div class="logo">
-
         BEAUTY SALON ODA
-
     </div>
-
     <nav>
-
         <ul>
-
-            <li><a href="#">HOME</a></li>
-
-            <li><a href="#concept">CONCEPT</a></li>
-
-            <li><a href="#menu">MENU</a></li>
-
-            <li><a href="#access">ACCESS</a></li>
-
-            <li><a href="#">LINE予約</a></li>
-
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./index.html#concept">CONCEPT</a>
+            </li>
+            <li>
+                <a href="./index.html#menu">MENU</a>
+            </li>
+            <li>
+                <a href="https://maps.app.goo.gl/itdPUgMnaGrqR2Z59" target="_blank" rel="noopener noreferrer">ACCESS</a>
+            </li>
+            <li>
+                <a href="https://lin.ee/UoAYWeLb">LINE予約</a>
+            </li>
         </ul>
-
     </nav>
-
 </header>
-
-
 
 <main>
 
+    
 <section class="hero">
+    <!-- ▼ 複数の画像をスライドさせる要素に変更 -->
+    <div class="hero-slider">
+        <div class="slide active" style="background-image: url('top2.png');"></div>
+        <div class="slide" style="background-image: url('top3.png');"></div>
+        <div class="slide" style="background-image: url('color-concept.png');"></div>
+        <div class="slide" style="background-image: url('cut-banner.png');"></div>
+        <div class="slide" style="background-image: url('treatment-concept.png');"></div>
+    </div>
 
-<img
-src="top1.png"
-alt="BEAUTY SALON ODA 店内"
-class="hero-image">
-
-
-<div class="hero-text">
-
-<h1>
-
-あなたらしい美しさを、
-もっと自然に。
-
-</h1>
-
-<p>
-
-落ち着いた空間で
-
-ゆったり過ごせる美容室。
-
-毎日が少し嬉しくなる
-
-ヘアスタイルをご提案します。
-
-</p>
-
-<a href="#" class="btn">
-
-LINEで予約する
-
-</a>
-
-</div>
-
+    <!-- キャッチコピーなどのテキスト -->
+    <div class="hero-text">
+        <h1>
+            あなたらしい美しさを、<br>
+            もっと自然に。
+        </h1>
+        <p>
+            落ち着いた空間でゆったり過ごせる美容室。<br>
+            毎日が少し嬉しくなるヘアスタイルをご提案します。
+        </p>
+        <a href="https://lin.ee/UoAYWeLb" class="btn">LINEで予約する</a>
+    </div>
 </section>
-
-
 
 <section id="concept" class="concept">
-
-<div class="container">
-
-<h2>
-
-CONCEPT
-
-</h2>
-
-<p>
-
-髪質や骨格、
-
-ライフスタイルまで考え、
-
-毎日扱いやすいスタイルを
-
-ご提案しています。
-
-丁寧なカウンセリングと
-
-落ち着いた空間で
-
-ゆっくりとした時間を
-
-お過ごしください。
-
-</p>
-
-</div>
-
+    <div class="container">
+        <h2>CONCEPT</h2>
+        <p>
+            髪質や骨格、ライフスタイルまで考え、毎日扱いやすいスタイルをご提案しています。<br>
+            丁寧なカウンセリングと落ち着いた空間でゆっくりとした時間をお過ごしください。
+        </p>
+    </div>
 </section>
-
-
 
 <section id="menu" class="menu">
-
-<div class="container">
-
-<h2>
-
-MENU
-
-</h2>
-
-<div class="menu-grid">
-
-<a href="https://choco69papa.github.io/top/menu/cut.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>カット</h3>
-        <p>あなたに似合うスタイルをご提案します。</p>
+    <div class="container">
+        <h2>MENU</h2>
+        <div class="menu-grid">
+            <a href="menu/cut.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Cut</h3><span class="sub-title">カット</span>
+                    <p>あなたに似合うスタイルをご提案します。</p>
+                </div>
+            </a>
+            <a href="menu/perm.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Perm</h3><span class="sub-title">パーマ</span>
+                    <p>自然な動きと再現性の高いデザイン。</p>
+                </div>
+            </a>
+            <a href="menu/color.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Color</h3><span class="sub-title">カラー</span>
+                    <p>透明感・艶感のあるカラーをご提案。</p>
+                </div>
+            </a>
+            <a href="menu/treatments.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Treatments</h3><span class="sub-title">トリートメント</span>
+                    <p>髪のダメージをケアし、うるおいとツヤを与えます。</p>
+                </div>
+            </a>
+            <a href="menu/hair-straightening.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Hair straightening</h3><span class="sub-title">縮毛矯正</span>
+                    <p>自然で柔らかなストレートヘアへ。</p>
+                </div>
+            </a>
+            <a href="menu/3d-zoumou.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>３D増毛</h3>
+                    <p>気になる部分を自然にボリュームアップ。</p>
+                </div>
+            </a>
+            <a href="menu/lashes.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>Eyelash</h3><span class="sub-title">まつ毛</span>
+                    <p>目元を美しく演出するアイメニュー。</p>
+                </div>
+            </a>
+            <a href="menu/dressing.html" class="menu-box-link">
+                <div class="menu-box">
+                    <h3>着付け</h3>
+                    <p>成人式・卒業式・七五三などに対応。</p>
+                </div>
+            </a>
+        </div>
     </div>
-</a>
-
-<a href="https://choco69papa.github.io/top/menu/perm.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>パーマ</h3>
-        <p>自然な動きと再現性の高いデザイン。</p>
-    </div>
- </a>
-
-<a href="https://choco69papa.github.io/top/menu/color.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>カラー</h3>
-        <p>透明感・艶感のあるカラーをご提案。</p>
-    </div>
- </a>
-
-<a href="https://choco69papa.github.io/top/menu/treatments.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>縮毛矯正</h3>
-        <p>自然で柔らかなストレートヘアへ。</p>
-    </div>
- </a>
-
-<a href="https://choco69papa.github.io/top/menu/lashes.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>まつ毛</h3>
-        <p>目元を美しく演出するアイメニュー。</p>
-    </div>
- </a>
-    
-<a href="https://choco69papa.github.io/top/menu/dressing.html" class="menu-box-link">
-    <div class="menu-box">
-        <h3>着付け</h3>
-        <p>成人式・卒業式・七五三などに対応。</p>
-    </div>
- </a>
-    
-</div>
-</div>
-
 </section>
-
-
 
 <section id="access" class="access">
-
-<div class="container">
-
-<h2>
-
-ACCESS
-
-</h2>
-
-<p>
-
-〒510-0211
-
-三重県鈴鹿市東旭が丘1-5-8
-
-</p>
-
-<p>
-
-TEL：059-386-58010
-
-</p>
-
-<p>
-
-営業時間
-
-9:00〜18:00
-
-</p>
-
-<p>
-
-定休日：毎週月曜日・第三火曜日
-
-</p>
-
-<a href="#" class="btn">
-
-Google Mapを見る
-
-</a>
-
-</div>
-
+    <div class="container">
+        <h2>ACCESS</h2>
+        <p>〒510-0211 三重県鈴鹿市東旭が丘1-5-8</p>
+        <p>TEL：059-386-5801</p>
+        <p>営業時間 9:00〜18:00</p>
+        <p>定休日：毎週月曜日・第三火曜日</p>
+        <a href="https://maps.app.goo.gl/itdPUgMnaGrqR2Z59" class="btn" target="_blank" rel="noopener noreferrer">Google Mapを見る</a>
+    </div>
 </section>
-
-
 
 <section class="reserve">
-
-<div class="container">
-
-<h2>
-
-WEB RESERVE
-
-</h2>
-
-<p>
-
-24時間いつでも
-
-LINEからご予約いただけます。
-
-</p>
-
-<a href="#" class="reserve-btn">
-
-LINE予約はこちら
-
-</a>
-
-</div>
-
+    <div class="container">
+        <h2>WEB RESERVE</h2>
+        <p>24時間いつでもLINEからご予約いただけます。</p>
+        <a href="https://lin.ee/UoAYWeLb" class="reserve-btn">LINE予約はこちら</a>
+    </div>
 </section>
-
 </main>
 
-
-
 <footer>
-
-<div class="footer-inner">
-
-<h3>
-
-BEAUTY SALON ODA
-
-</h3>
-
-<p>
-
-〒510-0211
-
-三重県鈴鹿市東旭が丘1-5-8
-
-</p>
-
-<p>
-
-TEL：059-386-58010
-
-</p>
-
-<p>
-
-© 2026 BEAUTY SALON ODA All Rights Reserved.
-
-</p>
-
-</div>
-
+    <div class="footer-inner">
+        <h3>BEAUTY SALON ODA</h3>
+        <p>〒510-0211 三重県鈴鹿市東旭が丘1-5-8</p>
+        <p>TEL：059-386-5801</p>
+        <p>&copy; 2026 BEAUTY SALON ODA All Rights Reserved.</p>
+    </div>
 </footer>
 
 <script>
-
 window.addEventListener("scroll", function(){
-
     const header = document.querySelector("header");
-
     if(window.scrollY > 80){
-
         header.classList.add("scrolled");
-
     }else{
-
         header.classList.remove("scrolled");
-
     }
-
 });
 
+// メインビジュアルの画像切り替え処理
+const slides = document.querySelectorAll('.hero-slider .slide');
+let currentIndex = 0;
+
+function showNextSlide() {
+    slides[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % slides.length;
+    slides[currentIndex].classList.add('active');
+}
+
+// 4秒ごとに画像を切り替え（お好みで秒数を変更できます：4000 = 4秒）
+setInterval(showNextSlide, 4000);
 </script>
 
 </body>
-
-</body>
-
 </html>
